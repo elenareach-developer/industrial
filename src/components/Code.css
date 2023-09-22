@@ -1,0 +1,14 @@
+.prose :where(pre):not(:where([class~=not-prose] *)) {
+    color: #f8fafc;
+    background-color: var(--tw-prose-pre-bg);
+    overflow-x: auto;
+    font-weight: 400;
+    font-size: .875em;
+    line-height: 1.7142857;
+    margin-top: 1.4285714285714286em;
+    margin-bottom: 2.2857142857142856em;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
+    display: flex;
+}
