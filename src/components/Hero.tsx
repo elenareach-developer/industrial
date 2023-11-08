@@ -6,7 +6,7 @@ const Hero = () =>{
         <>
             <section className="bg-white">
                 
-                <h1 className="mb-4 text-4xl font-extrabold trakiing-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">We main view</h1>
+                <h1 className="mb-4 text-4xl font-extrabold trakiing-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">Main view</h1>
            
             </section>
         </>
