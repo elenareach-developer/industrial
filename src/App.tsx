@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import { Provider } from 'react-redux';
 import SidebarMenu from './components/SideBarMenu';
 import DataTable from './components/DataTable';
+import TextForm from './components/TextForm';
 import TimerSimple from './components/TimerSimple';
 import store from './redux/store';
 
@@ -24,9 +25,12 @@ function App(): JSX.Element {
         <div className="w-full p-4 text-center text-gray-400">
           <Hero />
           <TimerSimple />
+          <TextForm/>
           <DataTable/>
         </div>
         <Footer />
+
+        
       </div>
     </Provider>
     </>
